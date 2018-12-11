@@ -1,3 +1,20 @@
 h1 {
     display: inline;
 }
+
+<section class="wrapper">
+        <div class="main-content">
+            <h2>About Me</h2>
+            <hr>
+            <img src="" alt="">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum minus molestiae quo, velit modi officiis facere mollitia perspiciatis sit soluta eligendi accusantium, quam voluptate rerum voluptatem eius alias voluptates! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam eligendi recusandae aspernatur ut, voluptatem doloribus. Provident iste voluptatum quos hic quidem quibusdam numquam, nam eos commodi fugiat dolor iure impedit.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga excepturi tempore quod doloribus inventore cumque neque, nostrum, ut laboriosam consectetur dolores quam earum ab pariatur a magni libero quaerat harum!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda impedit in repudiandae id non. Velit neque dolores cupiditate, impedit aut sed laboriosam eius itaque repudiandae tempora illo debitis reprehenderit!
+            </p>
+        </div>
+    </section>
