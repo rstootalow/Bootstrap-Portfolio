@@ -1,20 +1,63 @@
-h1 {
+
+body {
+    background-image: url("../../assets/images/dust_scratches.jpeg");
+}
+
+/* HEADING STYLE */
+
+header {
+    background-color: white;
+}
+
+#bootstrap-override .navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.heading-title {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 6px;
+    margin: 0;
+}
+
+/* MAIN CONTAINER OVERRIDE STYLE */
+
+#bootstrap-override .jumbotron {
+    margin-top: 40px;
+    padding: 0;
+    background-color: white;
+}
+ h3 {
+    color: #4aaaa5;
+}
+
+#bootstrap-override .display-4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* NAVIGATION STYLING AND BS OVERRIDES */
+
+ #bootstrap-override li { /* I DO NOT THINK THIS DOES ANYTHING WHILE USING BOOSTRAP */
     display: inline;
 }
 
-<section class="wrapper">
-        <div class="main-content">
-            <h2>About Me</h2>
-            <hr>
-            <img src="" alt="">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum minus molestiae quo, velit modi officiis facere mollitia perspiciatis sit soluta eligendi accusantium, quam voluptate rerum voluptatem eius alias voluptates! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam eligendi recusandae aspernatur ut, voluptatem doloribus. Provident iste voluptatum quos hic quidem quibusdam numquam, nam eos commodi fugiat dolor iure impedit.
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga excepturi tempore quod doloribus inventore cumque neque, nostrum, ut laboriosam consectetur dolores quam earum ab pariatur a magni libero quaerat harum!
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda impedit in repudiandae id non. Velit neque dolores cupiditate, impedit aut sed laboriosam eius itaque repudiandae tempora illo debitis reprehenderit!
-            </p>
-        </div>
-    </section>
+#bootstrap-override li a {
+    text-decoration: none;
+    color: #777777;
+    word-spacing: 4px;
+}
+
+/* IMAGE AND CONTENT STYLING */
+
+#bootstrap-override img {
+    margin-right: 15px;
+}
+
+/* FOOTER STYLES */
+
+#bootstrap-override .fixed-bottom {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}

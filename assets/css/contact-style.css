@@ -1,0 +1,27 @@
+
+
+body {
+    background-image: url("../../assets/images/dust_scratches.jpeg");
+}
+
+header {
+    background-color: white;
+}
+
+#bootstrap-override .navbar {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 6px;
+    margin: 0;
+}
+
+
+#bootstrap-override .container {
+    background-color: white;
+    padding: 0;
+}
