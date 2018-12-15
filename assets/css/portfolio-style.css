@@ -1,0 +1,56 @@
+body {
+    background-image: url("../../assets/images/dust_scratches.jpeg");
+}
+
+/* HEADER STYLES */
+
+header {
+    background-color: white;
+}
+
+#bootstrap-override .navbar {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 6px;
+    margin: 0;
+}
+
+/* NAVIGATION LINKS STYLES */
+
+#bootstrap-override li { /* I DO NOT THINK THIS DOES ANYTHING WHILE USING BOOSTRAP */
+    display: inline;
+}
+
+#bootstrap-override li a {
+    text-decoration: none;
+    color: #777777;
+    word-spacing: 1px;
+}
+
+#bootstrap-override a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+/* MAIN CONTENT STYLES */
+
+#bootstrap-override img {
+    width: 400px;
+    height: 400px;
+}
+
+/* FOOTER STYLES */
+
+#bootstrap-override .fixed-bottom {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+#bootstrap-override .fixed-bottom p {
+    color: white;
+}
