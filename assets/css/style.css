@@ -30,6 +30,7 @@ header {
 }
  h3 {
     color: #4aaaa5;
+    padding-top: 10px;
 }
 
 #bootstrap-override .display-4 {
@@ -47,6 +48,11 @@ header {
     text-decoration: none;
     color: #777777;
     word-spacing: 4px;
+}
+
+#bootstrap-override a:hover {
+    color: black;
+    font-weight: bolder;
 }
 
 /* IMAGE AND CONTENT STYLING */

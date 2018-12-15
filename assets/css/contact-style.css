@@ -4,6 +4,8 @@ body {
     background-image: url("../../assets/images/dust_scratches.jpeg");
 }
 
+/* HEADER STYLES */
+
 header {
     background-color: white;
 }
@@ -20,8 +22,71 @@ h2 {
     margin: 0;
 }
 
+/* NAVIGATION LINKS STYLES */
+
+#bootstrap-override li { /* I DO NOT THINK THIS DOES ANYTHING WHILE USING BOOSTRAP */
+    display: inline;
+}
+
+#bootstrap-override li a {
+    text-decoration: none;
+    color: #777777;
+    word-spacing: 1px;
+}
+
+#bootstrap-override a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+/* MAIN CONTENT STYLES */
+
+
+#bootstrap-override form {
+    margin-top: 40px;
+    padding: 0;
+    background-color: white;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+ h3 {
+    color: #4aaaa5;
+    padding-top: 10px;
+}
+
+hr {
+    margin-right: 20px;
+}
+
+#bootstrap-override .form-control {
+    width: 98%;
+}
+
+#bootstrap-override .display-4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
 
 #bootstrap-override .container {
     background-color: white;
     padding: 0;
 }
+
+#bootstrap-override .btn {
+    background-color: #4aaaa5;
+}
+
+/* FOOTER STYLES */
+
+#bootstrap-override .fixed-bottom {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+#bootstrap-override .fixed-bottom p {
+    color: white;
+}
+
