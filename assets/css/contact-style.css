@@ -67,8 +67,9 @@ hr {
     font-weight: bold;
 }
 
-
-
+#bootstrap-override textarea {
+    height: 150px;
+}
 
 #bootstrap-override .container {
     background-color: white;
