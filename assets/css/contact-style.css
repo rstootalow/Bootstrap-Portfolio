@@ -87,7 +87,10 @@ hr {
     border-top: 8px solid #4aaaa5;
 }
 
-#bootstrap-override .fixed-bottom p {
+#bootstrap-override .text-center {
     color: white;
+    font-size: 14px;
+    padding-top: 6px;
+
 }
 

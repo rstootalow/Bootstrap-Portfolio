@@ -39,10 +39,55 @@ h2 {
 
 /* MAIN CONTENT STYLES */
 
-#bootstrap-override img {
-    width: 400px;
-    height: 400px;
+#bootstrap-override .main-content {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
+
+#bootstrap-override .img-content {
+    position: relative;
+    padding: 0px 0px 10px 0px;
+}
+
+#bootstrap-override img {
+    width: 100%;
+    height: auto;
+}
+
+#bootstrap-override h3 {
+    background-color: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+}
+
+.hangman {
+    width: 100%;
+    top: 80%;
+}
+
+.rpg {
+    width: 100%;
+    top: 80%;
+}
+
+.trivia {
+    width: 100%;
+    top: 80%;
+}
+
+.rutgers {
+    width: 100%;
+    top: 80%;
+    font-size: 26px;
+}
+
+.rps {
+    width: 100%;
+    top: 80%;
+}
+
+
 
 /* FOOTER STYLES */
 
@@ -51,6 +96,9 @@ h2 {
     border-top: 8px solid #4aaaa5;
 }
 
-#bootstrap-override .fixed-bottom p {
+#bootstrap-override .text-center {
     color: white;
+    font-size: 14px;
+    padding-top: 6px;
+
 }

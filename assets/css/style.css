@@ -67,3 +67,10 @@ header {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
 }
+
+#bootstrap-override .text-center {
+    color: white;
+    font-size: 14px;
+    padding-top: 6px;
+
+}
